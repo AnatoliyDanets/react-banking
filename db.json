@@ -1,0 +1,49 @@
+{
+  "banks": [
+    {
+      "name": "PrivatBank",
+      "createDate": "Sat May 07 2022",
+      "category": "10",
+      "max": "150000",
+      "min": "10",
+      "credit": "10",
+      "id": 10
+    },
+    {
+      "name": "AlfaBank",
+      "createDate": "Fri May 06 2022",
+      "category": "10",
+      "max": "100000",
+      "min": "30",
+      "credit": "24",
+      "id": 11
+    },
+    {
+      "name": "MegaBank",
+      "createDate": "Thu May 05 2022",
+      "category": "10",
+      "max": "500000",
+      "min": "10",
+      "credit": "24",
+      "id": 13
+    },
+    {
+      "name": "MyBank",
+      "createDate": "Fri May 06 2022",
+      "category": "10",
+      "max": "2000000",
+      "min": "10",
+      "credit": "24",
+      "id": 14
+    },
+    {
+      "name": "ProstoBank",
+      "createDate": "Sat May 07 2022",
+      "category": "10",
+      "max": "50000",
+      "min": "10",
+      "credit": "6",
+      "id": 15
+    }
+  ]
+}

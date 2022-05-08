@@ -1,0 +1,31 @@
+{
+    "banks": [
+      {
+        "name": "PrivatBank",
+        "createDate": "Thu Apr 21 2022",
+        "category": "20",
+        "max": "200000",
+        "min": "30",
+        "date": "12",
+        "id": 10
+      },
+      {
+        "name": "AlfaBank",
+        "createDate": "Wed Apr 20 2022",
+        "category": "10",
+        "max": "100000",
+        "min": "20",
+        "date": "24",
+        "id": 11
+      },
+      {
+        "name": "MegaBank",
+        "createDate": "Thu Apr 21 2022",
+        "category": "20",
+        "max": "400000",
+        "min": "10",
+        "date": "24",
+        "id": 13
+      }
+    ]
+  }

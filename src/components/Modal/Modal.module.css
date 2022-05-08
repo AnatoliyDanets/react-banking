@@ -1,0 +1,48 @@
+.Overlay {
+  position: fixed;
+
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.Modal {
+  padding: 40px 10px;
+  position: absolute;
+  height: 450px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 540px;
+  background-color: #fff;
+  border-radius: 3px;
+  box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2),
+    0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+}
+.closeModal {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  outline: none;
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  background-color: var(--primary-bgr-color);
+  cursor: pointer;
+}
+.close-modal {
+  fill: currentColor;
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.closeModal:hover .close-modal {
+  fill: #7f8383;
+}
+.closeModal:focus {
+  color: var(--accent-bg-color);
+}
